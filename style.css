@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: montserrat;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(180, 237, 255);
+}
+
+.title1 {
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    font-size: 40px;
+    padding-bottom: 0px;
+}
+
+.title2 {
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+
+.videoo {
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.videazo {
+    border: 2px  black;
+    border-radius: 2%;
+    width: 40em;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-decoration: none;
+    cursor: default;
+    
+}
+
+button {
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    background-color: rgb(69, 162, 255);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .videazo {
+        margin-top: 2em;
+        width: 23em;
+        
+    }
+
+.title1 {
+    margin-top: 0.4em;
+}
+
+    button {
+        width: 17em;
+        font-size: 20px;
+    }
+  }
